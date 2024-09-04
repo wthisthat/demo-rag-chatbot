@@ -54,7 +54,6 @@ def process_multiline_string(text):
 if __name__ == "__main__":
     try:
         index_first_setup = init_pinecone()
-        print(index_first_setup)
         if index_first_setup:
             process_pdfs_to_vector_store()
     
